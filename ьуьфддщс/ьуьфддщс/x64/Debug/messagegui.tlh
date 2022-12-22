@@ -1,0 +1,88 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.34.31937.0 (916e12fe).
+//
+// C:\code stuff\prRepo\p\ьуьфддщс\ьуьфддщс\x64\Debug\messagegui.tlh
+//
+// C++ source equivalent of Win32 type library ../exLibs/MessageGUI.tlb
+// compiler-generated file - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace MessageGUI {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("d7c8491f-7648-4b7f-8bde-ae02679092a4"))
+/* LIBID */ __MessageGUI;
+struct /* coclass */ Initializer;
+struct __declspec(uuid("c5364e43-4d03-32d9-8d03-189af1404ac0"))
+/* dual interface */ IMessageGUI;
+struct __declspec(uuid("697cb161-9948-3c14-bafb-158a2b402d8b"))
+/* dual interface */ _Initializer;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IMessageGUI, __uuidof(IMessageGUI));
+_COM_SMARTPTR_TYPEDEF(_Initializer, __uuidof(_Initializer));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("ba9ed6e5-5b2a-3614-bc77-061bdaede62d"))
+Initializer;
+    // [ default ] interface _Initializer
+    // interface _Object
+    // interface IMessageGUI
+
+struct __declspec(uuid("c5364e43-4d03-32d9-8d03-189af1404ac0"))
+IMessageGUI : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=Getmessage))
+    _bstr_t message;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t Getmessage ( );
+    HRESULT Initialize ( );
+    HRESULT DisplayMessage (
+        _bstr_t message );
+    HRESULT ClearMessage ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_message (
+        /*[out,retval]*/ BSTR * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_Initialize ( ) = 0;
+      virtual HRESULT __stdcall raw_DisplayMessage (
+        /*[in]*/ BSTR message ) = 0;
+      virtual HRESULT __stdcall raw_ClearMessage ( ) = 0;
+};
+
+struct __declspec(uuid("697cb161-9948-3c14-bafb-158a2b402d8b"))
+_Initializer : IDispatch
+{};
+
+//
+// Wrapper method implementations
+//
+
+#include "C:\code stuff\prRepo\p\ьуьфддщс\ьуьфддщс\x64\Debug\messagegui.tli"
+
+} // namespace MessageGUI
+
+#pragma pack(pop)

@@ -1,0 +1,37 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.34.31937.0 (916e12fe).
+//
+// C:\code stuff\prRepo\p\ьуьфддщс\ьуьфддщс\x64\Debug\messagegui.tli
+//
+// Wrapper implementations for Win32 type library ../exLibs/MessageGUI.tlb
+// compiler-generated file - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IMessageGUI wrapper method implementations
+//
+
+inline _bstr_t IMessageGUI::Getmessage ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_message(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline HRESULT IMessageGUI::Initialize ( ) {
+    HRESULT _hr = raw_Initialize();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMessageGUI::DisplayMessage ( _bstr_t message ) {
+    HRESULT _hr = raw_DisplayMessage(message);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IMessageGUI::ClearMessage ( ) {
+    HRESULT _hr = raw_ClearMessage();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

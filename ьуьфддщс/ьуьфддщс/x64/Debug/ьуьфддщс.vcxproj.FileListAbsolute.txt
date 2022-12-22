@@ -1,0 +1,6 @@
+C:\Users\91897\Desktop\code stuff\ьуьфддщс\ьуьфддщс\x64\Debug\ьуьфддщс.vcxproj.MdMergeInputs.cache
+C:\Users\91897\Desktop\code stuff\ьуьфддщс\ьуьфддщс\x64\Debug\ьуьфддщс.vcxproj.cppwinrt_plat.cache
+C:\Users\91897\Desktop\code stuff\ьуьфддщс\ьуьфддщс\x64\Debug\ьуьфддщс.vcxproj.cppwinrt_comp.cache
+C:\code stuff\prRepo\p\ьуьфддщс\ьуьфддщс\x64\Debug\ьуьфддщс.vcxproj.MdMergeInputs.cache
+C:\code stuff\prRepo\p\ьуьфддщс\ьуьфддщс\x64\Debug\ьуьфддщс.vcxproj.cppwinrt_plat.cache
+C:\code stuff\prRepo\p\ьуьфддщс\ьуьфддщс\x64\Debug\ьуьфддщс.vcxproj.cppwinrt_comp.cache
